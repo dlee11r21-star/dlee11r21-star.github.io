@@ -6,4 +6,4 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    command: npm start
+    command: sh -c "./setup-n8n.sh && npm start"
