@@ -1,0 +1,10 @@
+{
+  "name": "docker-node-dev",
+  "version": "1.0.0",
+  "description": "Node.js development environment with Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
